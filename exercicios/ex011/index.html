@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens e Audios</title>
+</head>
+<body>
+    <h1>imagens tamanhos diferentes com forme a tela</h1>
+        <h2>mude o tamanho da tela ou acesse o site por outro dispositivo pra ver a imagem mudando</h2>
+
+   <picture>
+
+    <source media="(max-width: 750px )" srcset="imagens/foto-p.jpg" type="image/png">
+    <source media="(max-width: 1050px )" srcset="imagens/foto-m.jpg" type="image/png">
+    <img src="imagens/foto-g.jpg" alt="imagem flexivel">
+
+
+    <audio preload="metadata" controls  loop >
+        
+        <source src="midias/PRA SEMPRE _ PORQUE ELE VIVE .ogg" type="audio/ogg">
+        <source src="midias/Me Leva Pra Casa.mp3" type="audio/mpeg">
+       
+        <p>seu navegador nao suporta audio. <a href="midias/Me Leva Pra Casa.mp3" download="me leva para casa.mp3" type="audio/mpeg" >clique aqui para baixar</a></p>
+
+    </audio>
+        <audio src="midias/PRA SEMPRE _ PORQUE ELE VIVE .ogg" preload="metadata" controls  >
+
+         <source src="midias/Me Leva Pra Casa.mp3" type="audio/mpeg">
+
+
+</audio>
+
+
+   </picture>
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
