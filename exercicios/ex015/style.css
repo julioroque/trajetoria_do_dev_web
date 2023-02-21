@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(236, 198, 102);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h1{
+    color: antiquewhite;
+    font-size: 30px;
+    text-align: center;
+    background-color: coral;
+}
+h2{
+text-decoration:underline ;
+color: orangered;
+font-size: 25px;
+
+}
+p{    
+text-align: justify;
+width: 70%;
+margin: 40px;
+
+
+}
