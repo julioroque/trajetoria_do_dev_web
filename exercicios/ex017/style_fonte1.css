@@ -1,4 +1,7 @@
 @charset "UTF-8";
+*{
+    box-sizing: border-box;
+}
 
 body{
     background-image: linear-gradient(25deg, #F2A444, #BF7636, #F2C641);
@@ -8,7 +11,7 @@ main{
     background-color: white;
     width: 600px;
     padding: 10px;
-    margin: auto;
+    margin-left: 202px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px #BF7636;
     
@@ -17,9 +20,12 @@ main{
 div{
     background-color: rgb(228, 11, 11);
     width: 600px;
-    margin: auto;
+    height: 500px;
+    margin-left: 800px;
     padding: 10px;
     border-radius: 5px;
+    border: dotted 5px white;
+    
     
 
 }
