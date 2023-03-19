@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color:  rgb(223, 236, 133);
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+    
+}
+
+h1#primaria{
+background-color: rgb(217, 175, 60);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+h2#secundario{
+ color: rgb(232, 0, 0);
+}
+h2#terceiro{
+    color: rgb(177, 160, 5);
+}
+p.teste{
+    max-width: 500px;
+    padding: 10px;
+    text-indent: 20px;
+    color: rgb(149, 77, 32);
+    font-size: 120%;
+}
+p{
+max-width: 700px;
+text-indent: 10px;
+}
