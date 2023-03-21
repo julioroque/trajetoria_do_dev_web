@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <Style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        div{
+            border: 2px solid;
+            width:fit-content;
+            text-align: center;
+            
+        }
+
+        div:hover{
+            color:blue ;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            background-color: aquamarine ;
+            color: rgb(255, 0, 0);
+            width: 300px;
+        }
+
+
+
+    </Style>
+</head>
+<body>
+    <!--com hover se passar o mouse em cima ele muda de cor ou faz algo -->
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse em cima da frase a seguir.</p>
+    <div>
+        Passe o mouse aqui
+        <p>SURPRESAAAAAAA ACHOUUUU</p>
+    </div>
+
+    <P>FIM...</P>
+    
+
+
+
+</body>
+</html>
