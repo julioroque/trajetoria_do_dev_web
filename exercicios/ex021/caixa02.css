@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body{
+    background-color: silver;
+    margin: 0px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: white;
+    padding: 0px 10px 10px ;
+    margin: 10px;
+}
+nav{
+    background-color: slategray;
+    padding: 3px;
+}
+nav a{
+    color: red;
+    margin-right: 10px;
+}
+main{
+    background-color: white;
+    margin: 10px;
+    height: 450px;
+}
+#assuntos p {
+    padding: 10px;
+    font-size: larger;
+}
+#noticias{
+    background-color: rgb(162, 157, 157);
+    margin: 5px;
+    padding: 10px;
+    text-indent: 10px;
+}
+#autor{
+    text-align: right;
+}
+#radio{
+    background-color: rgb(162, 157, 157);
+    margin: 5px;
+    padding: 10px;
+    
+}
+#rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+
+}
+   
